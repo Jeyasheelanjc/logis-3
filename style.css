@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+}
+.navContainer{
+   width: 100%;
+   position: fixed;
+   justify-content: space-around;
+}
+nav {
+    width: 100%;
+    display: flex;
+    height: 10vh;
+    background-color: #0e1d34;
+}
+
+.navlinks {
+    display: flex;
+    gap: 3rem;
+    margin-top: 2.5rem;
+}
+
+nav h2 {
+    color: #fff;
+    margin-top: 1.5rem;
+    margin-right: 25rem;
+    font-size: 35px;
+}
+
+.navlinks a {
+    color: #fff;
+    font-weight: 100
+}
+
+.btn {
+    border: 2px solid blue;
+    padding: 5px 15px;
+    background-color: blue;
+    color: #fff;
+}
+
+.logo {
+    width:100%;
+    height: auto;
+    margin-top: 5rem;
+}
+
+.logo img {
+    width: 25%;
+    float: right;
+    height: auto;
+    border-bottom: 2px solid black;
+}
+
+.heroSection {
+    padding: 110px 80px;
+    height: 65vh;
+    background-color: #0e1d34;
+}
+
+.content h2 {
+    color: #fff;
+    padding: 10px 0;
+    width: 30%;
+    font-size: 40px;
+}
+
+.content p {
+    color: #fff;
+    padding: 20px 0;
+    font-weight: 100;
+    width: 50%;
+}
+
+.content input {
+    width: 650px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.content .btn {
+    margin-left: -7rem;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+
+.number {
+    display: flex;
+    gap: 6rem;
+    padding: 35px 0 0;
+}
+
+.card {
+    line-height: 3;
+}
+
+.card p {
+    color: #fff;
+    text-align: center;
+}
+
+.card .cardHeader {
+    border-bottom: 2px solid blue;
+}
+
+.card-1 {
+    padding: 80px 90px;
+}
+
+.cardContainer {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    align-items: center;
+    gap: 2rem;
+}
+
+.cards {
+    display: flex;
+    gap: 2rem;
+}
+
+.cards a {
+    color: black;
+}
+
+.cards .cardHeader {
+    font-size: 40px;
+}
+
+.cards .cardHeader a {
+    color: black;
+}
+
+.cards .cardBody h3 {
+    padding: 0 0 10px;
+}
+
+.cards .cardBody p {
+    padding: 0 0 10px;
+}
+
+.cards h3:hover {
+    color: blue;
+}
+
+.cards a:hover {
+    color: blue;
+}
+
+.video {
+    float: right;
+    padding: 20px;
+}
+
+.aboutcard {
+    display: flex;
+    gap: 2rem;
+}
+
+.aboutcardsection {
+    gap: 2rem;
+    display: grid;
+}
+
+.about {
+    padding: 70px 80px;
+}
+
+.about-content h3 {
+    color: blue;
+    font-size: 40px;
+    padding: 0 0 10px;
+}
+
+.about-content p {
+    padding: 0 0 15px;
+    color: grey;
+}
+.aboutcard a{
+    font-size: 40px;
+}
+.aboutcard .cardBody h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+.servicecontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.servicesection{
+    width:90%;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+}
+.servicecard{
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.servicecard .cardHeader img{
+    width: 100%;
+    transition:  0.2s all ease-in;
+}
+.service h2{
+    text-align: center;
+    padding: 30px 0;
+    font-size: 35px;
+
+}.servicecard .cardHeader{
+    padding: 10px;
+}
+.servicecard .cardBody{
+    padding: 15px;
+}
+.servicecard .cardBody h3, .servicecard .cardBody p{
+    padding: 10px;
+}
+.servicecard .cardBody h3{
+    text-align: center;
+}
+.servicecard .cardHeader img:hover{
+    transform: scale(1.1)
+}
+.parallax-1{
+    background:url(./img/cta-bg.jpg);
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.parallax-1 h2{
+    position: relative;
+    margin: auto;
+    color: #fff;
+    padding: 140px 0 0;
+}
+.parallax-1 p{
+    position: relative;
+    margin: auto;
+    color: #fff;
+    padding: 30px;
+}
+.parallax-1 .btn{
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+.aboutcard-2{
+    display: grid;
+}
+.aboutcard-2{
+    display: flex;
+}
+.aboutcard-2 .cardHeader img{
+    width: 90%;
+}
+.aboutcard-2 .cardBody-1 img{
+    width: 100%;
+}
+.aboutcard-2 .cardBody{
+    width: 100%;
+}
+.aboutcardcontainer-2{
+    padding: 80px;
+}
+.aboutcard-2 .cardBody h2{
+    text-align: left;
+    font-size: 25px;
+    width: 80%;
+    color: blue;
+    font-weight: 500;
+}
+.aboutcard-2 .cardBody p{
+    padding: 10px;
+    text-align: left;
+}
+.aboutcard-2 .cardBody p span{
+    line-height: 2;
+}
+.aboutcard-2 .cardHeader h2{
+    text-align: left;
+    font-size: 25px;
+    width: 80%;
+    color: blue;
+    font-weight: 500;
+}
+.aboutcard-2 .cardHeader p{
+    width: 90%;
+}
+.end{
+    display: flex;
+    padding: 20px 80px;
+    background-color: #0e1d34;
+}
+.endcardsection{
+    display: flex;
+    width: 100%;
+}
+.endcardsection{
+    gap: 7rem;
+    width: 170%;
+    padding: 20px 0 0;
+}
+.endlinks{
+    display: flex;
+    gap:2rem;
+}
+.end-1 p{
+    width: 90%;
+    font-size: 14px;
+    font-weight: 100;
+}
+.endcard .cardHeader p{
+    width: 100%;
+    line-height: 2;
+    font-family: 100;
+    font-size: 15px;
+    color: grey;
+}
+.end-1 , .endlinks a,.endcard{
+    color: #fff;
+}
+.end-1 h2{
+    padding: 20px 0 10px;
+}
+.endcard .cardHeader h5{
+    font-size: 20px;
+    padding: 0 0 15px;
+}
+.endcard .cardHeader span{
+    line-height: 3;
+}
+.endcard .cardHeader .email{
+    line-height: 2;
+    font-size: 13px;
+}
+.endlinks a{
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid #7a7878;
+    padding: 10px 15px;
+    border-radius: 100px;
+    font-size: 15px;
+}
+.endlinks a:hover{
+    border: 3px solid #fff;
+}
+.endbar{
+    text-align: center;
+    padding: 25px 0;
+    background-color: #0e1d34;
+    color: #fff;
+}
+.endbars{
+    font-weight: 100;
+    line-height: 1.8;
+}
+.pricecontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pricesection{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    width: 88%;
+    gap: 2rem;
+}
+.price{
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 40px;
+}
+.price .cardHeader h5{
+    font-size: 20px;
+    padding: 15px 0;
+} 
+.price .cardHeader p{
+    font-size: 35px;
+}
+.price .cardHeader p{
+    color: blue;
+    padding: 13px 0;
+}.price .cardHeader sub{
+    color: rgb(12, 12, 12);
+}
+.price .cardBody p {
+    line-height: 2.5;
+    padding: 15px 15px 60px;
+}
+.price .btn{
+    padding: 15px 30px;
+    margin-left: 7rem;
+
+}
+.price .btn-1{
+    border: 2px solid blue;
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    padding: 15px 30px;
+    margin-left: 7rem;
+}
+.price .btn-1:hover{
+    background-color: blue;
+    color: white;
+}
